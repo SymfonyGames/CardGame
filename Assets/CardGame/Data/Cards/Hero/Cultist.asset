@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb74b9f267163f745b26ff338ab55787, type: 3}
+  m_Name: Cultist
+  m_EditorClassIdentifier: 
+  cardName: Cultist
+  description: 
+  interactSound: {fileID: 0}
+  artwork: {fileID: 21300000, guid: ccaefe77444ddda41a7b57578122d9d4, type: 3}
+  health: 30
+  shield: 0
+  walkDistance: 1
+  attackSound: {fileID: 0}
+  deathSound: {fileID: 11400000, guid: f5c2823ae62cfa24bbf100754b881bcf, type: 2}
+  attackVFX: {fileID: 7077723593529272734, guid: 56e24b4912ad86e4d9dfc2d026beb3aa, type: 3}
+  healthPickupVFX: {fileID: 3454656990787409054, guid: 3b8989786c59c724c87ea979c4484732, type: 3}
+  shieldPickupVFX: {fileID: 730044541103790640, guid: 05b6ae1cf4f8d6c49968bcbb8e71c985, type: 3}
+  abilities: []
+  shopPrice:
+    gold: 0
+    gems: 400
+  stats:
+    hp: 0
+    dmgMin: 0
+    dmgMax: 0
+    armor: 0
+  actionStats:
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    factor: 4
+    actions: []
+  chances: []
+  attacks:
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    factor: 4
+    actions: []
+  defense:
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    factor: 4
+    actions: []
+  ultimate:
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    factor: 4
+    actions: []

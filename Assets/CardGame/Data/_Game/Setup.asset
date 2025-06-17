@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f05beeb413b3544c9b9129900c2ccc2, type: 3}
+  m_Name: Setup
+  m_EditorClassIdentifier: 
+  hpMinHealAnimation: 5
+  reviveCost:
+    gold: 250
+    gems: 0
+    silver: 0
+  heroLevelMax: 10
+  heroExperienceForLevel:
+  - 0
+  - 200
+  - 450
+  - 700
+  - 1100
+  - 1400
+  - 1800
+  - 2300
+  - 3500
+  - 4200
+  unitExperience:
+  - 25
+  - 40
+  - 60
+  - 85
+  - 115
+  - 150
+  - 190
+  - 235
+  - 285
+  - 340
+  - 400
+  - 465
+  - 535
+  - 610
+  - 690
+  - 775
+  - 865
+  - 960
+  - 1060
+  - 1165
+  firstAbilityRequire: 1
+  secondAbilityRequire: 5
+  thirdAbilityRequire: 10
+  expPerStep: 1
+  expPerMiniBoss: 5
+  expPerBoss: 10
+  heroExpCoef: 50
+  unitExpCoef: 25
+  unitExpAddCoef: 5
+  TEXT_HP: 5
+  TEXT_EXP: 2.625
+  TEXT_EXPAdd: 5
+  test:
+  - -Infinity
+  - 0.69897
+  - 1
+  - 1.1760913
+  - 1.30103
+  - 1.39794
+  - 1.4771212
+  - 1.5440681
+  - 1.60206
+  - 1.6532125
+  - 1.69897
+  - 1.7403626
+  - 1.7781513
+  - 1.8129133
+  - 1.845098
+  - 1.8750613
+  - 1.90309
+  - 1.9294189
+  - 1.9542425
+  - 1.9777236
+  curvesChance:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.00590875
+      value: 0.21913299
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  chanceFactor: 4
+  maxExp: 20
+  baseExp: 5
+  autoSetHeroExperience: 0

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/firebase_database_url,@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_android_client_id,@string/default_web_client_id">
+  <string name="firebase_database_url" translatable="false">https://infinite-heroes-a0dab-default-rtdb.firebaseio.com/</string>
+  <string name="gcm_defaultSenderId" translatable="false">713510957180</string>
+  <string name="google_storage_bucket" translatable="false">infinite-heroes-a0dab.appspot.com</string>
+  <string name="project_id" translatable="false">infinite-heroes-a0dab</string>
+  <string name="google_api_key" translatable="false">AIzaSyDRzK-ESCHjGR1Hf0ZIP8WtQ7yybPc5sBM</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDRzK-ESCHjGR1Hf0ZIP8WtQ7yybPc5sBM</string>
+  <string name="google_app_id" translatable="false">1:713510957180:android:a46dd5396d72f588a459f9</string>
+  <string name="default_android_client_id" translatable="false">713510957180-2er9gdb8d5smaivvhq5rice9p3bpulfq.apps.googleusercontent.com</string>
+  <string name="default_web_client_id" translatable="false">713510957180-ucb2vvli096qdll48nlquqmg73a2cdam.apps.googleusercontent.com</string>
+</resources>

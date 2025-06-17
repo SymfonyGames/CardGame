@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674537fb994f24480816ecd76bc3eacd, type: 3}
+  m_Name: CASConsentRequestParameters
+  m_EditorClassIdentifier: 
+  showInEditor: 1
+  withAudienceDefinition: 0
+  withDeclineOption: 0
+  withMediationSettings: 0
+  withRequestTrackingTransparency: 0
+  uiPrefab: {fileID: 6378617394226191214, guid: 7d5e0316681d1474ab5f043167c4a559, type: 3}
+  settingsTogglePrefab: {fileID: 0}
+  privacyPolicyUrl:
+  - id: 0
+    text: "https://pages.flycricket.io/infinite-heroes/privacy.html\r"
+  termsOfUseUrl: []

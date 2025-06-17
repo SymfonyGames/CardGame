@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcd7be5a28593f342bf49f47fb31ce15, type: 3}
+  m_Name: Desert
+  m_EditorClassIdentifier: 
+  sequence:
+  - level: {fileID: 11400000, guid: c2d5e0d98a3394648b838add706bd457, type: 2}
+    goldReward: 110
+    gemReward: 35
+    enemyLinesTotal: 48
+  - level: {fileID: 11400000, guid: 9aa8eb044f6b2ff469c0bec57378ee8e, type: 2}
+    goldReward: 115
+    gemReward: 37
+    enemyLinesTotal: 51
+  - level: {fileID: 11400000, guid: 8b39b64a0b88e7c42a3238e773ab71e3, type: 2}
+    goldReward: 120
+    gemReward: 39
+    enemyLinesTotal: 54
+  - level: {fileID: 11400000, guid: a4cddeea061fda44db0274f63cc2f936, type: 2}
+    goldReward: 125
+    gemReward: 41
+    enemyLinesTotal: 10
+  - level: {fileID: 11400000, guid: 35ae4ac33c0a6f74d9a1ea07f780c386, type: 2}
+    goldReward: 130
+    gemReward: 43
+    enemyLinesTotal: 57
+  - level: {fileID: 11400000, guid: 66c30bf4c8bc80d45a5b756491100d1f, type: 2}
+    goldReward: 135
+    gemReward: 45
+    enemyLinesTotal: 60

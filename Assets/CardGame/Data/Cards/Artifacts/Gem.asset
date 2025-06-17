@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6924f485504b2964ba33f4fc8a22c50e, type: 3}
+  m_Name: Gem
+  m_EditorClassIdentifier: 
+  cardName: 
+  description: 
+  interactSound: {fileID: 11400000, guid: 27f77448b7451cd40bf6ba5057e8c743, type: 2}
+  artwork: {fileID: 21300000, guid: 9d6d81f575d318541955ce1b0c58899f, type: 3}
+  chanceGeneration: 0
+  chanceRotation: 0
+  glowColor: {r: 0.08392668, g: 0.5691111, b: 0.7735849, a: 0}
+  portalHealthVFX: {fileID: 0}
+  portalShieldVFX: {fileID: 0}
+  portalCoinVFX: {fileID: 0}
+  portalManaFX: {fileID: 0}
+  hpMin: 0
+  hpMax: 0
+  shieldMin: 0
+  shieldMax: 0
+  goldMin: 0
+  goldMax: 0
+  gemMin: 3
+  gemMax: 3
+  potions: []

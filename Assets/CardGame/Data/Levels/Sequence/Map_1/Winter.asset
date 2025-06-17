@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcd7be5a28593f342bf49f47fb31ce15, type: 3}
+  m_Name: Winter
+  m_EditorClassIdentifier: 
+  sequence:
+  - level: {fileID: 11400000, guid: e0e85decfa573f44699f0956285f3a68, type: 2}
+    goldReward: 30
+    gemReward: 5
+    enemyLinesTotal: 15
+  - level: {fileID: 11400000, guid: 5ef7ffeed5381544b9b3d1a830f621c4, type: 2}
+    goldReward: 35
+    gemReward: 5
+    enemyLinesTotal: 18
+  - level: {fileID: 11400000, guid: ce5b55bcfdd6c154b8526427e1b1070c, type: 2}
+    goldReward: 40
+    gemReward: 7
+    enemyLinesTotal: 21
+  - level: {fileID: 11400000, guid: d06a0ba1808f7954bafb6486377272fe, type: 2}
+    goldReward: 45
+    gemReward: 9
+    enemyLinesTotal: 24

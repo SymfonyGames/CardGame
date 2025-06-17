@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1726cb243bcb462b9ee313f1cf84b987, type: 3}
+  m_Name: Gold magnet
+  m_EditorClassIdentifier: 
+  cardName: 
+  description: Pull all gold items to you
+  sound: {fileID: 0}
+  icon: {fileID: 21300000, guid: a7097d13ecbfbce499a8a16d466a4618, type: 3}
+  prefab: {fileID: 4516722536741732885, guid: e4ea3cbbda84b494ea048979c0dc2b04, type: 3}
+  manaCost: 000000000000000000000000
+  cooldown: 000000000000000000000000

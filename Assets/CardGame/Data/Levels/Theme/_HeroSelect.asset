@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a92a5888c85f594c9169265bcdedf18, type: 3}
+  m_Name: _HeroSelect
+  m_EditorClassIdentifier: 
+  background: {fileID: 21300000, guid: 6674bcd7f9bb74447a36424c13961bb8, type: 3}
+  envoirementVFXPrefab: {fileID: 4539707097305768220, guid: c7c538b257d616f42b4b814a263fdaff, type: 3}
+  cardFrontFrame: {fileID: 0}
+  cardFrontGlow: {fileID: 0}
+  cardBackBody: {fileID: 0}
+  cardBackGlow: {fileID: 0}
+  moveSound: {fileID: 0}
+  backgroundMusic: {fileID: 11400000, guid: 4cfd274b9d0737942a6119de37a6fecf, type: 2}

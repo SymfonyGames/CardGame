@@ -1,0 +1,14 @@
+Product ID,Published State,Purchase Type,Auto Translate,Locale; Title; Description,Auto Fill Prices,Price,Pricing Template ID
+com.symphony.infinityheroes.tiny_of_gem,published,managed_by_android,false,en_US;Tiny of Gem;50 Gem,false,,0,99
+com.symphony.infinityheroes.fistful_of_gem,published,managed_by_android,false,en_US;Fistful of Gem;100 Gem,false,,1,99
+com.symphony.infinityheroes.pounch_of_gem,published,managed_by_android,false,en_US;Pounch of Gem;240 Gem,false,,2,99
+com.symphony.infinityheroes.box_of_gem,published,managed_by_android,false,en_US;Box of Gem;360 Gem,false,,3,99
+com.symphony.infinityheroes.chest_of_gem,published,managed_by_android,false,en_US;Chest of Gem;480 Gem,false,,4,99
+com.symphony.infinityheroes.vault_of_gem,published,managed_by_android,false,en_US;Vault of Gem;1000 Gem,false,,9,99
+com.symphony.infinityheroes.tiny_of_gold,published,managed_by_android,false,en_US;Tiny of Gold;100 Gold,false,,0,99
+com.symphony.infinityheroes.fistful_of_gold,published,managed_by_android,false,en_US;Fistful of Gold;240 Gold,false,,1,99
+com.symphony.infinityheroes.pounch_of_gold,published,managed_by_android,false,en_US;Pounch of Gold;450 Gold,false,,3,99
+com.symphony.infinityheroes.box_of_gold,published,managed_by_android,false,en_US;Box of Gold;750 Gold,false,,5,99
+com.symphony.infinityheroes.chest_of_gold,published,managed_by_android,false,en_US;Chest of Gold;1000 Gold,false,,7,99
+com.symphony.infinityheroes.vault_of_gold,published,managed_by_android,false,en_US;Vault of Gold;5000 Gold,false,,9,99
+com.symphony.infinityheroes.remove_ads,published,managed_by_android,false,en_US;RemoveADS;RemoveADS,false,,4,99

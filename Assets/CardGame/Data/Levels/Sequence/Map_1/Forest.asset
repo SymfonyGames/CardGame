@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcd7be5a28593f342bf49f47fb31ce15, type: 3}
+  m_Name: Forest
+  m_EditorClassIdentifier: 
+  sequence:
+  - level: {fileID: 11400000, guid: 725d120aa5209b040bdf1b31b27d3ca6, type: 2}
+    goldReward: 50
+    gemReward: 11
+    enemyLinesTotal: 24
+  - level: {fileID: 11400000, guid: 71addb9b04519ce4b93bbcdfba939acb, type: 2}
+    goldReward: 55
+    gemReward: 13
+    enemyLinesTotal: 27
+  - level: {fileID: 11400000, guid: 70569ab1cd7c1f24d8ea12b47cca687f, type: 2}
+    goldReward: 60
+    gemReward: 15
+    enemyLinesTotal: 10
+  - level: {fileID: 11400000, guid: 92061694299df114f91f3f48f38213dd, type: 2}
+    goldReward: 65
+    gemReward: 17
+    enemyLinesTotal: 30
+  - level: {fileID: 11400000, guid: 88e0180d7308c294ea502c22cf1fd4f4, type: 2}
+    goldReward: 70
+    gemReward: 19
+    enemyLinesTotal: 33
+  - level: {fileID: 11400000, guid: 8ee41f7c13684ab4d8354ee4c8801eec, type: 2}
+    goldReward: 75
+    gemReward: 21
+    enemyLinesTotal: 36

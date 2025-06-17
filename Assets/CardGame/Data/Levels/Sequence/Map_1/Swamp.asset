@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcd7be5a28593f342bf49f47fb31ce15, type: 3}
+  m_Name: Swamp
+  m_EditorClassIdentifier: 
+  sequence:
+  - level: {fileID: 11400000, guid: ea18eb4f51b2e2f43a1e29a759286930, type: 2}
+    goldReward: 80
+    gemReward: 23
+    enemyLinesTotal: 36
+  - level: {fileID: 11400000, guid: 906e46873641edd45ace515efaf1b784, type: 2}
+    goldReward: 85
+    gemReward: 25
+    enemyLinesTotal: 39
+  - level: {fileID: 11400000, guid: 972c82a22196a9d4191556e856902e8f, type: 2}
+    goldReward: 90
+    gemReward: 27
+    enemyLinesTotal: 42
+  - level: {fileID: 11400000, guid: a195061296769e44b8b799f8cb19e23d, type: 2}
+    goldReward: 95
+    gemReward: 29
+    enemyLinesTotal: 10
+  - level: {fileID: 11400000, guid: df72e1a3007871e418b92f187dd292a1, type: 2}
+    goldReward: 100
+    gemReward: 31
+    enemyLinesTotal: 45
+  - level: {fileID: 11400000, guid: 3ca825d196fb6fa4b83d86c733df47e3, type: 2}
+    goldReward: 64
+    gemReward: 33
+    enemyLinesTotal: 48

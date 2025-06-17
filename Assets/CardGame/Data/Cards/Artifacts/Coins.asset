@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6924f485504b2964ba33f4fc8a22c50e, type: 3}
+  m_Name: Coins
+  m_EditorClassIdentifier: 
+  cardName: 
+  description: 
+  interactSound: {fileID: 11400000, guid: deeee28d9a6b99d408046fdc39a24b67, type: 2}
+  artwork: {fileID: 21300000, guid: d4f3045f5e2bc96499dd366fa093b97f, type: 3}
+  chanceGeneration: 0.3
+  chanceRotation: 0
+  glowColor: {r: 1, g: 0.7490196, b: 0.078431375, a: 1}
+  portalHealthVFX: {fileID: 0}
+  portalShieldVFX: {fileID: 0}
+  portalCoinVFX: {fileID: 5900841554773274103, guid: 0a1ede41a6457bf478469e91d88580fa, type: 3}
+  portalManaFX: {fileID: 0}
+  hpMin: 0
+  hpMax: 0
+  shieldMin: 0
+  shieldMax: 0
+  goldMin: 10
+  goldMax: 20
+  gemMin: 0
+  gemMax: 0
+  potions: []

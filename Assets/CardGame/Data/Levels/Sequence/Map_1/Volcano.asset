@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcd7be5a28593f342bf49f47fb31ce15, type: 3}
+  m_Name: Volcano
+  m_EditorClassIdentifier: 
+  sequence:
+  - level: {fileID: 11400000, guid: 6513c2e4259551542865b245d66f7a46, type: 2}
+    goldReward: 140
+    gemReward: 47
+    enemyLinesTotal: 60
+  - level: {fileID: 11400000, guid: 9fbf29d5866fdfc41b3525409cc55445, type: 2}
+    goldReward: 145
+    gemReward: 49
+    enemyLinesTotal: 63
+  - level: {fileID: 11400000, guid: 202652f0f34aa614c9e628f5b1cb4a7d, type: 2}
+    goldReward: 150
+    gemReward: 51
+    enemyLinesTotal: 66
+  - level: {fileID: 11400000, guid: 9b7eff1551fa2ef4bb0696b27148e04e, type: 2}
+    goldReward: 155
+    gemReward: 53
+    enemyLinesTotal: 69
+  - level: {fileID: 11400000, guid: d2226054328604047a645d1ee2ea44f2, type: 2}
+    goldReward: 160
+    gemReward: 55
+    enemyLinesTotal: 15
+  - level: {fileID: 11400000, guid: 894255830c806b14f9493bf569b54834, type: 2}
+    goldReward: 165
+    gemReward: 55
+    enemyLinesTotal: 75

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "713510957180",
+    "project_id": "infinite-heroes-a0dab",
+    "firebase_url":"https://infinite-heroes-a0dab-default-rtdb.firebaseio.com/",
+    "storage_bucket": "infinite-heroes-a0dab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713510957180:android:a46dd5396d72f588a459f9",
+        "android_client_info": {
+          "package_name": "com.Symphony.InfinityHeroes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "713510957180-2er9gdb8d5smaivvhq5rice9p3bpulfq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Symphony.InfinityHeroes",
+            "certificate_hash": "50c157525afb6555df3b9634ed703b5d9916c96d"
+          }
+        },
+        {
+          "client_id": "713510957180-ucb2vvli096qdll48nlquqmg73a2cdam.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRzK-ESCHjGR1Hf0ZIP8WtQ7yybPc5sBM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "713510957180-ucb2vvli096qdll48nlquqmg73a2cdam.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "713510957180-fquq87d7qq8p85amhfk7snq6ufc43q53.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Symphony.InfinityHeroes"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

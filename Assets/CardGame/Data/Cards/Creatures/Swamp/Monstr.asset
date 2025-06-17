@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 197ec7cd4cc525e4fa82da1a31ac3c5a, type: 3}
+  m_Name: Monstr
+  m_EditorClassIdentifier: 
+  chanceGeneration: 0.25
+  chanceRotation: 0.25
+  health: 6
+  shield: 2
+  coinReward: 9
+  artwork: {fileID: 21300000, guid: 7861bccdffba0ff4daae9e538cb211de, type: 3}
+  creatureScriptName: 
+  attackSound: {fileID: 0}
+  deathSound: {fileID: 11400000, guid: 2f02b8fa87f560d4aac42ea32331b4ae, type: 2}
+  attackVFX: {fileID: 4726299029436933914, guid: 4fb97a5840bd01d4eaf923622e879d9c, type: 3}
+  drops:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 7c28149fda375d54d8fae089051e2e1e, type: 2}
+  - {fileID: 11400000, guid: 2bb95704c429e274c8065263524458da, type: 2}
+  - {fileID: 11400000, guid: fed4b8e99f27884409bb55ae516609fd, type: 2}

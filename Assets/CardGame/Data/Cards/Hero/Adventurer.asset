@@ -1,0 +1,206 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb74b9f267163f745b26ff338ab55787, type: 3}
+  m_Name: Adventurer
+  m_EditorClassIdentifier: 
+  cardName: Adventurer
+  description: 
+  interactSound: {fileID: 0}
+  artwork: {fileID: 21300000, guid: 1f73a74f010f8fc4ebf4f6e5555f1a15, type: 3}
+  health: 100
+  mana: 40
+  dmgMin: 10
+  dmgMax: 10
+  stats:
+    HpBonusPerLvl: 0
+    MpBonusPerLvl: 0
+    HpRegen: 0
+    MpRegen: 0
+    CritChance: 0
+    Armor: 0
+  shield: 0
+  healthPerLevel: 2
+  attackSound: {fileID: 0}
+  deathSound: {fileID: 11400000, guid: f5c2823ae62cfa24bbf100754b881bcf, type: 2}
+  attackVFX: {fileID: 7382615676178508425, guid: ccf9678b59a788e40b5ed3bdb676ee82, type: 3}
+  healthPickupVFX: {fileID: 3454656990787409054, guid: 3b8989786c59c724c87ea979c4484732, type: 3}
+  shieldPickupVFX: {fileID: 730044541103790640, guid: 05b6ae1cf4f8d6c49968bcbb8e71c985, type: 3}
+  passiveAbilities: []
+  activeAbilities:
+  - {fileID: 11400000, guid: aec480acf839cc74bba0bffbc557775b, type: 2}
+  - {fileID: 11400000, guid: 3b0d95ba24aecfc41990cd006a752382, type: 2}
+  - {fileID: 11400000, guid: b52648329be8e624e8997aa00f5886b1, type: 2}
+  shopPrice:
+    gold: 0
+    gems: 0
+    silver: 0
+  customGameStats:
+    hp: 0
+    dmgMin: 10
+    dmgMax: 12
+    armor: 0
+  actionStats:
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -0.0012817383
+        value: 1
+        inSlope: -5.236777
+        outSlope: -5.236777
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.12466255
+      - serializedVersion: 3
+        time: 0.3314731
+        value: 0.2227048
+        inSlope: -0.79812676
+        outSlope: -0.79812676
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.0977091
+        outWeight: 0.24120435
+      - serializedVersion: 3
+        time: 0.58675176
+        value: 0.07485325
+        inSlope: -0.38352385
+        outSlope: -0.38352385
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.1240173
+      - serializedVersion: 3
+        time: 1.0012817
+        value: 0
+        inSlope: -0.18057379
+        outSlope: -0.18057379
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    factor: 4
+    actions:
+    - {fileID: 11400000, guid: df6a768dc86dc2f48ae9326bef5b45f9, type: 2}
+    - {fileID: 11400000, guid: e8ea18eb33ce88b41b0ba99b588cea17, type: 2}
+    - {fileID: 11400000, guid: 795b0c52312d8bc4aba76fb75d7c01bf, type: 2}
+    - {fileID: 11400000, guid: 740d271ef9b576748888459f45c60ad9, type: 2}
+  chances:
+  - 54
+  - 20
+  - 13
+  - 11
+  attacks:
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -0.0012817383
+        value: 1
+        inSlope: -5.236777
+        outSlope: -5.236777
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.12466255
+      - serializedVersion: 3
+        time: 0.3314731
+        value: 0.2227048
+        inSlope: -0.79812676
+        outSlope: -0.79812676
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.0977091
+        outWeight: 0.24120435
+      - serializedVersion: 3
+        time: 0.58675176
+        value: 0.07485325
+        inSlope: -0.38352385
+        outSlope: -0.38352385
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.1240173
+      - serializedVersion: 3
+        time: 1.0012817
+        value: 0
+        inSlope: -0.18057379
+        outSlope: -0.18057379
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    factor: 4
+    actions:
+    - {fileID: 11400000, guid: cc6924f1a466214488430ae7dcac50dd, type: 2}
+    - {fileID: 11400000, guid: cc6924f1a466214488430ae7dcac50dd, type: 2}
+  defense:
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -0.0012817383
+        value: 1
+        inSlope: -5.236777
+        outSlope: -5.236777
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.12466255
+      - serializedVersion: 3
+        time: 0.3314731
+        value: 0.2227048
+        inSlope: -0.79812676
+        outSlope: -0.79812676
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.0977091
+        outWeight: 0.24120435
+      - serializedVersion: 3
+        time: 0.58675176
+        value: 0.07485325
+        inSlope: -0.38352385
+        outSlope: -0.38352385
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.1240173
+      - serializedVersion: 3
+        time: 1.0012817
+        value: 0
+        inSlope: -0.18057379
+        outSlope: -0.18057379
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    factor: 4
+    actions:
+    - {fileID: 11400000, guid: a21ef34b72a808c42b8ec352bf970bc0, type: 2}
+  ultimate:
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    factor: 4
+    actions: []

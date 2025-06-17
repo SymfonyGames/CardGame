@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6924f485504b2964ba33f4fc8a22c50e, type: 3}
+  m_Name: Chest - 5
+  m_EditorClassIdentifier: 
+  cardName: 
+  description: 
+  interactSound: {fileID: 11400000, guid: 99294ab1f051f1e4bbcffb91d2b3ab61, type: 2}
+  artwork: {fileID: 21300000, guid: 6e7ce6afaa0471c46894975ec5024749, type: 3}
+  chanceGeneration: 1
+  chanceRotation: 0
+  glowColor: {r: 1, g: 0.7490196, b: 0.078431375, a: 1}
+  portalHealthVFX: {fileID: 0}
+  portalShieldVFX: {fileID: 0}
+  portalCoinVFX: {fileID: 3690528895225772449, guid: 9b3f857204420e44b980df13292133ab, type: 3}
+  portalManaFX: {fileID: 0}
+  hpMin: 0
+  hpMax: 0
+  shieldMin: 0
+  shieldMax: 0
+  manaMin: 0
+  manaMax: 0
+  goldMin: 10
+  goldMax: 30
+  silverMin: 20
+  silverMax: 30
+  gemMin: 0
+  gemMax: 0
+  expMin: 0
+  expMax: 0
+  potions: []

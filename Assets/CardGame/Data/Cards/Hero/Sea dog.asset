@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb74b9f267163f745b26ff338ab55787, type: 3}
+  m_Name: Sea dog
+  m_EditorClassIdentifier: 
+  cardName: Sea dog
+  description: 
+  interactSound: {fileID: 0}
+  artwork: {fileID: 21300000, guid: abda518427268ee418a8ae5e9f6a92ec, type: 3}
+  health: 20
+  shield: 5
+  healthPerLevel: 2
+  attackSound: {fileID: 0}
+  deathSound: {fileID: 11400000, guid: f5c2823ae62cfa24bbf100754b881bcf, type: 2}
+  attackVFX: {fileID: 1895783425960642990, guid: 222f57c6f500d4f42846540b4bad27a0, type: 3}
+  healthPickupVFX: {fileID: 3454656990787409054, guid: 3b8989786c59c724c87ea979c4484732, type: 3}
+  shieldPickupVFX: {fileID: 730044541103790640, guid: 05b6ae1cf4f8d6c49968bcbb8e71c985, type: 3}
+  passiveAbilities:
+  - {fileID: 11400000, guid: e0603373228b8354591dc7f3b387671c, type: 2}
+  activeAbilities:
+  - {fileID: 11400000, guid: aec480acf839cc74bba0bffbc557775b, type: 2}
+  - {fileID: 11400000, guid: b227a37bfc918f3469fafc6e8db7da0d, type: 2}
+  - {fileID: 11400000, guid: 467dc06c011b2fe46a504d9872ca0d09, type: 2}
+  shopPrice:
+    gold: 0
+    gems: 1000
+  stats:
+    hp: 0
+    dmgMin: 0
+    dmgMax: 0
+    armor: 0
+  actionStats:
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    factor: 4
+    actions: []
+  chances: []
+  attacks:
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    factor: 4
+    actions: []
+  defense:
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    factor: 4
+    actions: []
+  ultimate:
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    factor: 4
+    actions: []

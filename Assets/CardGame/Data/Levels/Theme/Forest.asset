@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a92a5888c85f594c9169265bcdedf18, type: 3}
+  m_Name: Forest
+  m_EditorClassIdentifier: 
+  background: {fileID: 21300000, guid: 74b63a3023360e04f920a46b341bb171, type: 3}
+  envoirementVFXPrefab: {fileID: 3263768782981509908, guid: 3c627f0ad2220e44fabbaa724fb96306, type: 3}
+  filterColor: {r: 0.07058824, g: 0.14901961, b: 0.019607844, a: 0.0627451}
+  cardFrontFrame: {fileID: 21300000, guid: 41ee302c57716544ea65faa0e865e6ba, type: 3}
+  cardFrontGlow: {fileID: 21300000, guid: d03d3c9fb94c1bd48acd26307e4f6c31, type: 3}
+  cardBackBody: {fileID: 21300000, guid: f37978759ab35de41828fc193169700d, type: 3}
+  cardBackGlow: {fileID: 21300000, guid: d03d3c9fb94c1bd48acd26307e4f6c31, type: 3}
+  moveSound: {fileID: 11400000, guid: ee7b02492bbfc31458218f5e7f422280, type: 2}
+  backgroundMusic: {fileID: 11400000, guid: fc997e70a45c6eb4dba037046c4fc0c4, type: 2}

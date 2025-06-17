@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6924f485504b2964ba33f4fc8a22c50e, type: 3}
+  m_Name: Potion (blue)
+  m_EditorClassIdentifier: 
+  cardName: 
+  description: 
+  interactSound: {fileID: 11400000, guid: 9fc61f8eb81f33a4f9508db6b550e1de, type: 2}
+  artwork: {fileID: 21300000, guid: 421babc0297f5d242ba1a9f68e00c1fa, type: 3}
+  chanceGeneration: 0.2
+  chanceRotation: 0
+  glowColor: {r: 0.34901962, g: 0.9254902, b: 0.06666667, a: 0}
+  portalHealthVFX: {fileID: 5858654130480387490, guid: c7a6af7b69aa94b498f4f7c5af7a9a4b, type: 3}
+  portalShieldVFX: {fileID: 0}
+  portalCoinVFX: {fileID: 0}
+  portalManaFX: {fileID: 0}
+  hpMin: 0
+  hpMax: 0
+  shieldMin: 0
+  shieldMax: 0
+  goldMin: 0
+  goldMax: 0
+  gemMin: 0
+  gemMax: 0
+  potions:
+  - type: 1
+    min: 1
+    max: 1

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a92a5888c85f594c9169265bcdedf18, type: 3}
+  m_Name: Winter
+  m_EditorClassIdentifier: 
+  background: {fileID: 21300000, guid: f4ad49d87f66033479a3430b6298ce04, type: 3}
+  envoirementVFXPrefab: {fileID: 140866, guid: e1058fc030688db448faf54f4fdaabb6, type: 3}
+  filterColor: {r: 0, g: 0.9529412, b: 1, a: 0.09803922}
+  cardFrontFrame: {fileID: 21300000, guid: 41ee302c57716544ea65faa0e865e6ba, type: 3}
+  cardFrontGlow: {fileID: 21300000, guid: d03d3c9fb94c1bd48acd26307e4f6c31, type: 3}
+  cardBackBody: {fileID: 21300000, guid: d68c1d797fd2bde45820b8b60e008efe, type: 3}
+  cardBackGlow: {fileID: 21300000, guid: d03d3c9fb94c1bd48acd26307e4f6c31, type: 3}
+  moveSound: {fileID: 11400000, guid: 795a313ad1328294c87df961e17b0811, type: 2}
+  backgroundMusic: {fileID: 11400000, guid: ddd6ad17986b8ae469865496240f17b9, type: 2}
